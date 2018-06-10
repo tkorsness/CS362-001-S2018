@@ -19,7 +19,7 @@ public class UrlValidatorTest extends TestCase {
    }
 
 
-/*   public void testManualTest00()
+   public void testManualTest00()
    {
 //You can use this function to implement your manual testing
     String[] schemes = {"http","https"};
@@ -59,7 +59,7 @@ public class UrlValidatorTest extends TestCase {
      assertFalse(urlValidator.isValid("jhsdfkjgdf"));
      assertFalse(urlValidator.isValid("htps://www.amazon.com/somethingExtra"));
    }
-  */  //You need to create more test cases for your Partitions if you need to
+    //You need to create more test cases for your Partitions if you need to
    String Scheme_X[] = {"http://","https://","ftp://"};
    String Authority_X[] = {"www.google.com","www.youtube.com","go.com"};
    String Path_X[] = {"/help","/123","/"};
